@@ -13,3 +13,9 @@ We want to see if the additional data created using the initial data, will impro
 
 We expect there will be a certain threshold in the number of data initially available to train the GAN models, under which it would be inefficient to use this technique.
 We want to find out the minimum number of data (images in our case) needed to improve the deep learning model.
+
+INFO
+
+- StyleGAN2_ADA.ipynb - code to train the StyleGAN
+- generate_synthetic_data.ipynb - code to generate synthetic images from a pre-trained pkl file, previously created with styleGAN
+- CNN.ipynb - Convolutional Neural Network we created to test the accuracy before and after the implementation of synthetic data in the original dataset
